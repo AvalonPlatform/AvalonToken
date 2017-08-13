@@ -1,6 +1,6 @@
 pragma solidity 0.4.15;
 
-/// @title Multi signature token wallet - Allows multiple parties to approve tokens transfer
+/// @title Multi-signature token wallet - Allows multiple parties to approve tokens transfer
 /// @author popofe (Avalon Platform) - <popofe@avalon.nu>
 
 contract MultiSigTokenWallet {

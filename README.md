@@ -25,12 +25,12 @@ Built with OpenZeppelin contracts.
 
 ---
 
-# Multi signatures tokens wallet
+# Multi-signature token wallet
 
 ## Features and design goals
 
-- Managing tokens of an ERC20 contract using a multi signatures wallet
-- Allow the addition and removal of an owner (if the quorum is reached)
+- Managing tokens of an ERC20 contract using a multi-signature wallet
+- Allow addition and removal of an owner (if the quorum is reached)
 - Allow the quorum to be modified (if the quorum is reached)
 
 ## Instructions
@@ -49,7 +49,7 @@ Built with OpenZeppelin contracts.
 
 ## Security
 
-Multi signatures token wallet contract is WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. This contract was created for the internal needs of Avalon Platform and it is still in Beta test stage. Its use is at your own risk
+Multi-signature token wallet contract is WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. This contract was created for the internal needs of Avalon Platform and it is still in Beta test stage. Its use is at your own risk
 
 ## Deployed instances with significant funds
 
