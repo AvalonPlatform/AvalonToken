@@ -36,14 +36,14 @@ Built with OpenZeppelin contracts.
 ## Operation
 
 - Update the ERC20 contract address at the beginning of the script
-- Deploy the contract with the following construtor parameters ["<address_owner_1>", "<address_owner_2>",...],<Quorum>
+- Deploy the contract with the following construtor parameters \[\"\<address_owner_1\>\", "\<\address_owner_2\>\",...\],\<Quorum\>
 - Transfer eventually some tokens to the contract address
-- Submit an action. Parameters are <address>, <value>, <action> where action is
-  - 0: Transfer <value> tokens to address
-  - 1: Add owner whose address is <address>
-  - 2: Remove owner whose address is <address>    
-  - 3: Modify quorum with the new value <value>
-  - 4: Delete a previous action that is not already executed. The ID of this action is <value>
+- Submit an action. Parameters are \<address\>, \<value\>, \<action\> where action is
+  - 0: Transfer \<value\> tokens to address
+  - 1: Add owner whose address is \<address\>
+  - 2: Remove owner whose address is \<address\>    
+  - 3: Modify quorum with the new value \<value\>
+  - 4: Delete a previous action that is not already executed. The ID of this action is \<value\>
 - All previous actions have to be confirm to reach the quorum with the public **confirmAction** function (parameter: Action ID). Confirmation can be cancelled with the **revokeCofirmation** function
 - Once the quorum is reached, the action can be executed with the public **excecuteAction** function (parameter : Action ID) 
 
