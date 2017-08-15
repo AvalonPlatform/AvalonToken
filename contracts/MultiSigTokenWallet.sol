@@ -71,9 +71,9 @@ contract MultiSigTokenWallet {
     }
 
     modifier validAction(address  addressField, uint value, ActionChoices actionType) {
-        require ((actionType == ActionChoices.AddOwner && addressField != 0 && value == 0)
-                || (actionType == ActionChoices.ChangeQuorum && addressField == 0 && value > 0)
-                || (actionType == ActionChoices.DeleteAction && addressField == 0 && value > 0)
+        require (  (actionType == ActionChoices.AddOwner      && addressField != 0 && value == 0)
+                || (actionType == ActionChoices.ChangeQuorum  && addressField == 0 && value > 0)
+                || (actionType == ActionChoices.DeleteAction  && addressField == 0 && value > 0)
                 || (actionType == ActionChoices.TransferToken && addressField != 0 && value > 0)
                 || (actionType == ActionChoices.WithdrawOwner && addressField != 0 && value == 0));
         _;

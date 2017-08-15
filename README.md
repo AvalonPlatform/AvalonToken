@@ -36,7 +36,7 @@ Built with OpenZeppelin contracts.
 ## Instructions
 
 - Update the ERC20 contract address at the beginning of the script
-- Deploy the contract with the following constructor parameters \[\"\<address_owner_1\>\", "\<\address_owner_2\>\",...\],\<Quorum\>
+- Deploy the contract with the following constructor parameters \[\"\<address_owner_1\>\", "\<address_owner_2\>\",...\],\<quorum\>
 - Transfer eventually some tokens to the contract address
 - Submit an action with public **submitAction** function. Parameters are \<address\>, \<value\>, \<action\> where the action is
   - 0: Transfer \<value\> tokens to address
@@ -49,7 +49,7 @@ Built with OpenZeppelin contracts.
 
 ## Security
 
-Multi-signature token wallet contract is WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. This contract was created for the internal needs of Avalon Platform and it is still in Beta test stage. Its use is at your own risk
+Multi-signature token wallet contract is WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. This contract was created for the internal needs of [Avalon Platform](https://avalon.nu/) and it is still in Beta test stage. Its use is at your own risk
 
 ## Deployed instances with significant funds
 
